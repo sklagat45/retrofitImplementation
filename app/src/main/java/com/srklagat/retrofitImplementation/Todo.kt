@@ -1,7 +1,5 @@
-package com.plcoding.retrofitcrashcourse
+package com.srklagat.retrofitImplementation
 
-
-import com.google.gson.annotations.SerializedName
 
 data class Todo(
     val completed: Boolean,

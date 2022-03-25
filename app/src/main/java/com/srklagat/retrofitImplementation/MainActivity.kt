@@ -1,4 +1,4 @@
-package com.plcoding.retrofitcrashcourse
+package com.srklagat.retrofitImplementation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,7 +6,7 @@ import android.util.Log
 import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.plcoding.retrofitcrashcourse.databinding.ActivityMainBinding
+import com.srklagat.retrofitImplementation.databinding.ActivityMainBinding
 import retrofit2.HttpException
 import java.io.IOException
 
@@ -45,7 +45,6 @@ class MainActivity : AppCompatActivity() {
             binding.progressBar.isVisible = false
         }
     }
-
     private fun setupRecyclerView() = binding.rvTodos.apply {
         todoAdapter = TodoAdapter()
         adapter = todoAdapter
